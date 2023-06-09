@@ -1,8 +1,8 @@
 {
   "scripts": {
     "dev": "bun run --hot src/index.ts",
-    "build": "bun build --outfile index.js --target bun src/index.ts",
-    "start": "bun run index.js"
+    "build": "bun build --cwd . --outfile dist/index.js --target bun src/index.ts",
+    "start": "bun run dist/index.js"
   },
   "dependencies": {
     "@quicknode/sdk": "1.0.0-beta.0",
