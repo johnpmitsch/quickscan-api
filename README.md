@@ -1,4 +1,8 @@
 ```
-npm install
-npm run start
+bun install
+bun run dev
+```
+
+```
+open http://localhost:3000
 ```
